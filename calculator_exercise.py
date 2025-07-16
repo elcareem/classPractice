@@ -36,6 +36,14 @@ print(f"The division value of {first_number} and {second_number} is {div:.2f}\n"
 first_number = int(input("First Number: "))
 second_number = int(input("Second Number: "))
 
+floor_div = first_number // second_number
+print("**************")
+print(f"The floor division value of {first_number} and {second_number} is {floor_div:.2f}\n")
+
+
+first_number = int(input("First Number: "))
+second_number = int(input("Second Number: "))
+
 exp = first_number ** second_number
 print("**************")
 print(f"The value of {first_number} raised to the power of {second_number} is {exp:.2f}\n")
