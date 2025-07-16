@@ -12,17 +12,29 @@ second_number = int(input("Second Number: "))
 sum = float(first_number + second_number)
 print(f"\nThe sum of {first_number} and {second_number} is {sum:.2f} \n")
 
+first_number = int(input("First Number: "))
+second_number = int(input("Second Number: "))
+
 sub = first_number - second_number
 print("**************")
 print(f"The difference of {first_number} and {second_number} is {sub:.2f}\n")
+
+first_number = int(input("First Number: "))
+second_number = int(input("Second Number: "))
 
 mul = first_number * second_number
 print("**************")
 print(f"The multiplication value of {first_number} and {second_number} is {mul:.2f}\n")
 
+first_number = int(input("First Number: "))
+second_number = int(input("Second Number: "))
+
 div = first_number / second_number
 print("**************")
 print(f"The division value of {first_number} and {second_number} is {div:.2f}\n")
+
+first_number = int(input("First Number: "))
+second_number = int(input("Second Number: "))
 
 exp = first_number ** second_number
 print("**************")
